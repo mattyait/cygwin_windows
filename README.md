@@ -48,3 +48,8 @@ Execute the command to install apt-cyg package manager which can be use to insta
     lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
     install apt-cyg /bin
     apt-cyg install vim
+    
+## Setting up Ansible on Cygwin
+
+    apt-cyg install libffi-devel python-crypto python2 python2-devel python2-openssl python2-pip python2-setuptools
+    pip install ansible
