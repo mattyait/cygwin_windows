@@ -38,3 +38,13 @@ Open System Properties using either:
 ## Final terminal to user
 
 ![cmder](./images/cmder.PNG)
+
+## Install package manager to install other dependencies in Cygwin (like to install vim)
+Install lynx package in cygwin from below window
+![CygwinPackages](./images/cygwin_package.PNG)
+
+Execute the command to install apt-cyg package manager which can be use to install vim and others
+
+    lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+    install apt-cyg /bin
+    apt-cyg install vim
