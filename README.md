@@ -53,3 +53,6 @@ Execute the command to install apt-cyg package manager which can be use to insta
 
     apt-cyg install libffi-devel python-crypto python2 python2-devel python2-openssl python2-pip python2-setuptools
     pip install ansible
+
+## Setting up git completion in cygwin
+Refer https://github.com/mattyait/git-completion
